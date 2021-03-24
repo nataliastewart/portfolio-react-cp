@@ -195,13 +195,13 @@ const openSource = {
 
 const bigProjects = {
 	title: 'Big Projects',
-	subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+	subtitle: 'SOME OF MY PROJECTS ',
 	projects: [
 		{
 			image: require('./assets/images/wunderlist.jpg'),
 			projectName: 'Wunderlist - Deployed a Web API',
 			projectDesc:
-				'I was responsible for build and deploy a Web API following the REST architectural pattern using the Express Framework.',
+				'I was responsible for building and deploying a Web API following the REST architectural pattern using the Express Framework. Node.Js',
 			footerLink: [
 				{
 					name: 'Visit Website',
@@ -211,14 +211,28 @@ const bigProjects = {
 			],
 		},
 		{
-			image: require('./assets/images/nextuLogo.webp'),
-			projectName: 'Nextu',
-			projectDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+			image: require('./assets/images/Todolist.jpg'),
+			projectName: 'To-do list',
+			projectDesc:
+				'A project with CRUD operations that drives the application. An on-boarding process for a new general user. Ability to easily create / setup a to do list item. Ability to easily edit / update / mark items as complete 4. Ability to completely delete an item - React - Redux - JavaScript',
 			footerLink: [
 				{
 					name: 'Visit Website',
-					url: '',
+					url: 'https://wunderlist3-ui.netlify.app/index.html',
 				},
+			],
+		},
+		{
+			image: require('./assets/images/BudgetTracker.png'),
+			projectName: 'Budget Tracker',
+			projectDesc:
+				'In this react budget app I built a budget app from scratch, getting data from a real API and saving to local storage - It is a fast and responsive website because I used Bootstrap - front-end open source.',
+			footerLink: [
+				{
+					name: 'Visit Website',
+					url: 'https://budget-tracker-phi.vercel.app/',
+				},
+				//  you can add extra buttons here.
 			],
 		},
 	],
@@ -340,8 +354,8 @@ const contactInfo = {
 	title: emoji('Contact Me ☎️'),
 	subtitle:
 		'Discuss a project or just want to say hi? My Inbox is open for all.',
-	number: '(323) 768 0674',
-	email_address: 'contact@davidrakosi.com',
+	number: '(732) 443 6412',
+	email_address: 'natmirandac@gmail.com',
 };
 
 // Twitter Section
