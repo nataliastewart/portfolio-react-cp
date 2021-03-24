@@ -149,34 +149,35 @@ const workExperiences = {
 	display: true, //Set it to true to show workExperiences Section
 	experience: [
 		{
-			role: 'Software Engineer',
-			company: 'Clever Programmer',
-			companylogo: require('./assets/images/cpLogo.png'),
-			date: 'September 2020 – Present',
+			role: 'Web Developer Mentor',
+			company: 'Lambda School',
+			companylogo: require('./assets/images/LambdaLogo.png'),
+			date: 'October 2020 – December 2020',
 			desc: 'Changing lives of developers one line of code at a time.',
 			descBullets: [
+				'Providing support and guidance to student mentee in one-on-one sessions two times per week.',
+				'Sharing industry insights to help mentee become a highly qualified web developer candidate.',
 				'Custom building applications',
 				'Coaching',
-				'Streaming live on YouTube',
-				'Creating tutorials',
+				'Project Leader',
 			],
 		},
-		{
-			role: 'Product Owner (PSD2)',
-			company: 'Erste Bank',
-			companylogo: require('./assets/images/ersteLogo.jpg'),
-			date: 'July 2019 – September 2020',
-			desc:
-				'I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.',
-		},
-		{
-			role: 'Junior Information Security & Systems Representative',
-			company: 'Vodafone',
-			companylogo: require('./assets/images/vodafoneLogo.png'),
-			date: 'November 2018 – July 2019',
-			desc:
-				"I've conducted internal audit making sure the organization is compliant with the GDPR.",
-		},
+		// {
+		// 	role: 'Product Owner (PSD2)',
+		// 	company: 'Erste Bank',
+		// 	companylogo: require('./assets/images/ersteLogo.jpg'),
+		// 	date: 'July 2019 – September 2020',
+		// 	desc:
+		// 		'I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.',
+		// },
+		// {
+		// 	role: 'Junior Information Security & Systems Representative',
+		// 	company: 'Vodafone',
+		// 	companylogo: require('./assets/images/vodafoneLogo.png'),
+		// 	date: 'November 2018 – July 2019',
+		// 	desc:
+		// 		"I've conducted internal audit making sure the organization is compliant with the GDPR.",
+		// },
 	],
 };
 
@@ -198,12 +199,13 @@ const bigProjects = {
 	projects: [
 		{
 			image: require('./assets/images/saayaHealthLogo.webp'),
-			projectName: 'Saayahealth',
-			projectDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+			projectName: 'Wunderlist - Deployed a Web API',
+			projectDesc:
+				'I built and deployed a Web API following the REST architectural pattern using the Express Framework.',
 			footerLink: [
 				{
 					name: 'Visit Website',
-					url: 'fa',
+					url: 'https://wunderlist-app.netlify.app/index.html',
 				},
 				//  you can add extra buttons here.
 			],
@@ -303,7 +305,7 @@ const blogSection = {
 				'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
 		},
 	],
-	display: true, // Set false to hide this section, defaults to true
+	display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -346,7 +348,7 @@ const contactInfo = {
 
 const twitterDetails = {
 	userName: 'davidrakosi_', //Replace "twitter" with your twitter username without @
-	display: true, // Set true to display this section, defaults to false
+	display: false, // Set true to display this section, defaults to false
 };
 
 export {
