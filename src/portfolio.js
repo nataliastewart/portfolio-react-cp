@@ -198,10 +198,10 @@ const bigProjects = {
 	subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
 	projects: [
 		{
-			image: require('./assets/images/saayaHealthLogo.webp'),
+			image: require('./assets/images/wunderlist.jpg'),
 			projectName: 'Wunderlist - Deployed a Web API',
 			projectDesc:
-				'I built and deployed a Web API following the REST architectural pattern using the Express Framework.',
+				'I was responsible for build and deploy a Web API following the REST architectural pattern using the Express Framework.',
 			footerLink: [
 				{
 					name: 'Visit Website',
@@ -222,7 +222,7 @@ const bigProjects = {
 			],
 		},
 	],
-	display: false, // Set false to hide this section, defaults to true
+	display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
