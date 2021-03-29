@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
 	username: 'Natalia Stewart',
-	title: "Hi all, I'm Natalia",
+	title: "Hi, I'm Natalia",
 	subTitle: emoji(
-		'A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.'
+		'A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs and many other libraries and frameworks.'
 	),
 	resumeLink:
 		'https://docs.google.com/document/d/1rzBB377vlhXJYGihEc30htOl5yi99Fx28xSxDSUniAw/edit?usp=sharing',
@@ -198,7 +198,7 @@ const bigProjects = {
 	subtitle: 'SOME OF MY PROJECTS ',
 	projects: [
 		{
-			image: require('./assets/images/wunderlist.jpg'),
+			image: require('./assets/images/Screenshot 2021-03-28 134854.png'),
 			projectName: 'Amazon - Clone',
 			projectDesc:
 				'A full E-commerce experience: the frontend I developed with React and using Context API to manage state. The backend I handled using Firebase to deploy the API url. Also I implemented Payment Process with STRIPE.',
