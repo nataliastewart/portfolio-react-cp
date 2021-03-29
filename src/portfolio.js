@@ -199,6 +199,19 @@ const bigProjects = {
 	projects: [
 		{
 			image: require('./assets/images/wunderlist.jpg'),
+			projectName: 'Amazon - Clone',
+			projectDesc:
+				'A full E-commerce experience: the frontend I developed with React and using Context API to manage state. The backend I handled using Firebase to deploy the API url. Also I implemented Payment Process with STRIPE.',
+			footerLink: [
+				{
+					name: 'Visit Website',
+					url: 'https://clone-d3b78.web.app/',
+				},
+				//  you can add extra buttons here.
+			],
+		},
+		{
+			image: require('./assets/images/wunderlist.jpg'),
 			projectName: 'Wunderlist - Deployed a Web API',
 			projectDesc:
 				'I was responsible for building and deploying a Web API following the REST architectural pattern using the Express Framework. Node.Js',
